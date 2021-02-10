@@ -1,7 +1,6 @@
 package com.dev.lytvynets.config;
 
-import org.springframework.web.servlet.support
-        .AbstractAnnotationConfigDispatcherServletInitializer;
+import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 public class MyWebAppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
     @Override
