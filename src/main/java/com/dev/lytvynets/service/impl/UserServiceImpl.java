@@ -4,7 +4,6 @@ import com.dev.lytvynets.dao.UserDao;
 import com.dev.lytvynets.model.User;
 import com.dev.lytvynets.service.UserService;
 import java.util.List;
-import java.util.Optional;
 import org.springframework.stereotype.Service;
 
 @Service
