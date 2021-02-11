@@ -24,8 +24,7 @@ public class UserController {
 
     @GetMapping("/{id}")
     public UserResponseDto get(@PathVariable Long id) {
-        return userMapper.getUserResponseDto(userService.get(id).orElseThrow(() ->
-                new RuntimeException("There is no user with id: " + id)));
+        return userMapper.getUserResponseDto(userService.get(id));
     }
 
     @GetMapping("/inject")
